@@ -5,7 +5,7 @@ import time
 from datetime import datetime
 
 #2.Definir quais contatos receberão as mensagens
-contatos=['+5586999270061','+5586999270062','+5586988291825']
+contatos=['numero_1','numero_2','numero_3']
 #3.Definir intervalos de envio
 while len(contatos)>=1:
     pywhatkit.sendwhatmsg(contatos[0],'VAMOS AUTOMATIZAR TUDO!',datetime.now().hour,datetime.now().minute+2)
